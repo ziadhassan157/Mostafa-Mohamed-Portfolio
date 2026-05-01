@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Mostafa Mohamed Atya, AI Engineer and Data Scientist specializing in machine learning, computer vision, NLP, and data-driven product solutions."
+    />
+    <meta
+      name="keywords"
+      content="Mostafa Mohamed Atya, AI Engineer, Data Scientist, Machine Learning, NLP, Computer Vision, YOLO, Transformers"
+    />
+    <title>Mostafa Mohamed Atya | AI Engineer & Data Scientist</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" id="page-loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+    </div>
+
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand">Mostafa <span>Mohamed</span></a>
+
+        <nav class="nav-links" id="nav-menu" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#tools">Tools</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#contact" class="btn-contact">
+            <i class="fa-solid fa-paper-plane"></i> Contact
+          </a>
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" type="button">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            id="menu-toggle"
+            class="icon-btn menu-btn"
+            aria-label="Toggle mobile navigation"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            type="button"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-content reveal">
+          <p class="hero-badge">AI Engineer & Data Scientist</p>
+          <h1>Mostafa Mohamed Atya</h1>
+          <p class="typing-line">
+            <span id="typing-text"></span><span class="typing-cursor">|</span>
+          </p>
+          <p class="hero-summary">
+            I build intelligent systems that turn complex data into clear decisions,
+            scalable products, and measurable business outcomes.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-gradient">View Projects</a>
+            <a href="#contact" class="btn-outline">Let’s Collaborate</a>
+          </div>
+          
+          <div class="premium-icons" aria-label="Social profile links">
+            <a href="mailto:m9058354@gmail.com" aria-label="Email" style="--h-bg: #ea4335; --h-shadow: rgba(234, 67, 53, 0.4);">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/mostafa-mohamed-03a38b350" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="--h-bg: #0077b5; --h-shadow: rgba(0, 119, 181, 0.4);">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-wrapper">
+          <article class="glass-card reveal">
+            <h2>About</h2>
+            <p>
+              I am an AI Engineer focused on building practical machine learning systems
+              across computer vision, NLP, and data analytics. My approach combines
+              clean engineering, model performance, and product thinking to deliver
+              solutions that teams can trust in real workflows.
+            </p>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="count" data-target="12">0</span>
+                <p>Projects Delivered</p>
+              </div>
+              <div class="stat-item">
+                <span class="count" data-target="20">0</span>
+                <p>Technologies Used</p>
+              </div>
+              <div class="stat-item">
+                <span class="count" data-target="4">0</span>
+                <p>AI Domains</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Services</h2>
+            <p>End-to-end AI and data services designed for production impact.</p>
+          </div>
+          <div class="services-grid">
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-brain"></i>
+              <h3>Machine Learning Solutions</h3>
+              <p>Custom predictive models for classification, forecasting, and optimization.</p>
+            </article>
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-camera"></i>
+              <h3>Computer Vision Systems</h3>
+              <p>Real-time visual intelligence using modern detection and tracking pipelines.</p>
+            </article>
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-language"></i>
+              <h3>NLP Applications</h3>
+              <p>Summarization, chatbot, and language processing powered by transformers.</p>
+            </article>
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-gears"></i>
+              <h3>AI Automation</h3>
+              <p>Automation workflows that reduce manual operations and scale decisions.</p>
+            </article>
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-chart-line"></i>
+              <h3>Predictive Analytics</h3>
+              <p>Insight-driven analytics for planning, risk analysis, and strategy execution.</p>
+            </article>
+            <article class="glass-card reveal stagger-item">
+              <i class="fa-solid fa-database"></i>
+              <h3>Data Processing</h3>
+              <p>Reliable data cleaning, structuring, and pipeline design for ML-ready datasets.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Tools & Stack</h2>
+            <p>Core technologies used to ship robust AI products.</p>
+          </div>
+          <div class="tools-grid">
+            <span class="tool-pill reveal stagger-item">Python</span>
+            <span class="tool-pill reveal stagger-item">TensorFlow</span>
+            <span class="tool-pill reveal stagger-item">PyTorch</span>
+            <span class="tool-pill reveal stagger-item">OpenCV</span>
+            <span class="tool-pill reveal stagger-item">YOLO</span>
+            <span class="tool-pill reveal stagger-item">Transformers</span>
+            <span class="tool-pill reveal stagger-item">Pandas</span>
+            <span class="tool-pill reveal stagger-item">NumPy</span>
+            <span class="tool-pill reveal stagger-item">SQL</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Experience & Education</h2>
+            <p>Academic and practical foundation in AI engineering.</p>
+          </div>
+          <div class="experience-grid">
+            <article class="glass-card reveal">
+              <h3>BSc in Artificial Intelligence</h3>
+              <p class="meta">Mansoura National University</p>
+              <p>Built strong fundamentals in AI, data systems, and software engineering.</p>
+            </article>
+            <article class="glass-card reveal">
+              <h3>DEPI Data Science Track</h3>
+              <p class="meta">Professional Program</p>
+              <p>Applied data science methods to real-world business and model scenarios.</p>
+            </article>
+            <article class="glass-card reveal">
+              <h3>AI Training & Practice</h3>
+              <p class="meta">Hands-on Development</p>
+              <p>Implemented multiple end-to-end AI projects from experimentation to delivery.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Projects Timeline</h2>
+            <p>Selected work focused on solving practical AI challenges.</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-card glass-card">
+                <h3>Object Detection & Tracking System</h3>
+                <p><strong>Problem:</strong> Real-time multi-object monitoring with consistent identities.</p>
+                <p><strong>Solution:</strong> Built a YOLO + DeepSort pipeline for accurate detection and tracking across frames.</p>
+                <div class="tags">
+                  <span>YOLO</span><span>DeepSort</span><span>OpenCV</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-card glass-card">
+                <h3>Text Summarization Platform</h3>
+                <p><strong>Problem:</strong> Long-form text required faster digestible insights.</p>
+                <p><strong>Solution:</strong> Implemented transformer-based summarization using BERT and T5 for concise outputs.</p>
+                <div class="tags">
+                  <span>Transformers</span><span>BERT</span><span>T5</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-card glass-card">
+                <h3>Fire Detection System</h3>
+                <p><strong>Problem:</strong> Early fire detection in video streams for faster response.</p>
+                <p><strong>Solution:</strong> Developed a vision model with OpenCV preprocessing for real-time fire recognition.</p>
+                <div class="tags">
+                  <span>Computer Vision</span><span>OpenCV</span><span>Detection</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-card glass-card">
+                <h3>AI Chatbot & Translator Suite</h3>
+                <p><strong>Problem:</strong> Need for multilingual support and faster communication workflows.</p>
+                <p><strong>Solution:</strong> Created NLP-powered chatbot and translation modules for conversational assistance.</p>
+                <div class="tags">
+                  <span>NLP</span><span>spaCy</span><span>NLTK</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <article class="contact-card glass-card reveal">
+            <h2>Let's Connect</h2>
+            <p>Open to AI engineering opportunities, freelance projects, and technical collaboration.</p>
+            
+            <div class="premium-icons" aria-label="Contact profile links">
+              <a href="mailto:m9058354@gmail.com" aria-label="Email" style="--h-bg: #ea4335; --h-shadow: rgba(234, 67, 53, 0.4);">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/mostafa-mohamed-03a38b350" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="--h-bg: #0077b5; --h-shadow: rgba(0, 119, 181, 0.4);">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; 2026 Mostafa Mohamed Atya</p>
+        <p>AI Engineer & Data Scientist</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
