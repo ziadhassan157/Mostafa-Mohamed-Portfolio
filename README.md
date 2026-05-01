@@ -1,7 +1,7 @@
 # Mostafa-Mohamed-Portfolio
 https://ziadhassan157.github.io/Mostafa-Mohamed-Portfolio/
 
-A modern, high-performance, and minimalist portfolio website designed for **Mostafa Mohamed Atya**.
+A modern, high-performance, and minimalist portfolio website designed for **Mostafa Mohamed**.
 
 ## Developed By
 **Ziad Ahmed**
@@ -29,4 +29,4 @@ A modern, high-performance, and minimalist portfolio website designed for **Most
 - `script.js`: Interactive logic and reveal animations.
 
 ## License
-This project was developed for a client. All rights to the content belong to Mostafa Mohamed Atya, while the engineering and design are credited to Zeyad Ahmed.
+This project was developed for a client. All rights to the content belong to Mostafa Mohamed Atya, while the engineering and design are credited to Ziad Ahmed.
