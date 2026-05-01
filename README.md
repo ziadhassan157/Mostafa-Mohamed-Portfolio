@@ -4,8 +4,8 @@
 A modern, high-performance, and minimalist portfolio website designed for **Mostafa Mohamed Atya**.
 
 ## Developed By
-**Zeyad Ahmed**
-*Software Engineering*
+**Ziad Ahmed**
+
 
 ---
 
